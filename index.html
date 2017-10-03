@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="home">
+<<<<<<< HEAD
+  {% assign page = site.categories.comics.first %}
+  {% assign content = page.content %}
+  {% include comic-post.html %}
+=======
 
   <h1 class="page-heading">Posts</h1>
 
@@ -20,4 +25,5 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+>>>>>>> 85a58158149b6bc398b7d1ed7812b44f754b17ce
 </div>

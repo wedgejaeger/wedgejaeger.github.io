@@ -1,0 +1,63 @@
+.comic {
+	max-width: $content-width;
+	margin: 1em auto;
+
+	&_nav {
+		margin: 1em;
+		padding: 0;
+
+		&:after {
+			clear: both;
+			display: block;
+			content: '';
+		}
+
+		&_item {
+			list-style: none;
+			width: 25%;
+			float: left;
+
+			&.last, &.next {
+				text-align: right;
+			}
+		}
+	}
+
+	&_wrapper {
+		position: relative;
+		z-index: 1;
+		border: 1px solid #eee;
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+
+	&_content {
+		max-width: 100%;
+		min-width: 750px;
+		&-wide {
+			max-width: 100%;
+			min-width: 2360px;
+			@media screen and (min-width: 767px) {
+				min-width: 750px;
+			}
+		}
+	}
+
+	&_image {
+		width: 100%;
+		height: auto;
+		&-copyright {
+			width: 100%;
+			height: auto;
+			margin-bottom: -11.333333333333333%;
+			&-wide {
+				width: 100%;
+				height: auto;
+				margin-bottom: -5.1%;
+				@media screen and (min-width: 767px) {
+					margin-bottom: -11.333333333333333%;
+				}
+			}
+		}
+	}
+}

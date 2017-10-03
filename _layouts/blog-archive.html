@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<header class="post_header">
+	<h1 class="post_title">{{ page.title }}</h1>
+</header>
+
+
+<ul class="blog-archive">
+{% for post in site.categories.blog %}
+	<li class="blog-archive_post">
+		<a class="blog-archive_title" href="{{ post.url }}">{{ post.title }}</a>
+		<span class="blog-archive_meta"><time>{{ post.date | date: '%B %d, %Y' }}</time></span>
+		<p class="blog-archive_entry">
+			{{ post.content | strip_html | truncatewords: 100 }}
+		</p>
+	</li>
+ {% endfor %}
+ </ul>

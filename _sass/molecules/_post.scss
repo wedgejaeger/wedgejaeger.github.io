@@ -1,0 +1,21 @@
+.post {
+
+	&_title {
+		font-size: 2em;
+		border-bottom: none;
+		font-weight: bold;
+		display: block;
+		line-height: 1.4;
+		color: inherit;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	&_meta {
+		color: $grey-color-dark;
+		font-size: 1em;
+		font-style: italic;
+		display: block;
+	}
+}
