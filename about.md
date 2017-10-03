@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: about/
 ---
 
 Wedge and Hope is a spin off of sorts. They're proxy characters for my wife and I, though they were created before we new each other existed for a different comic. Somewhere between work and several children, I haven't had the dedication to finishing Wedge and Hope's story. That's where this comic comes in.
