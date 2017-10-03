@@ -4,20 +4,8 @@ title: About
 permalink: /about/
 ---
 
-<<<<<<< HEAD
-This is the base Jekyll Comic theme.
+Wedge and Hope is a spin off of sorts. They're proxy characters for my wife and I, though they were created before we new each other existed for a different comic. Somewhere between work and several children, I haven't had the dedication to finishing Wedge and Hope's story. That's where this comic comes in.
 
-You can find the source code for Jekyll Comic at
-[sfrisk](https://github.com/sfrisk/) /
-[jekyll-comic](https://github.com/sfrisk/jekyll-comic)
-=======
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+While I lack some story arcs to build, I do have infinite short stories with my family. Wedge and Hope will be filled with accurate to exaggerated events in my life that I feel are worth sharing.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
->>>>>>> 85a58158149b6bc398b7d1ed7812b44f754b17ce
+Now to find time to draw it...
