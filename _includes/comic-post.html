@@ -24,7 +24,7 @@
 	  		<a href="{{ site.baseurl }}{{next_post}}">
 			{% endif %}
 				<picture>
-					<source {% if page.imageMobile %} media="(min-width: 300px)" {% endif %} srcset="{{ site.baseurl }}{{page.image}} 1x, {{ site.baseurl }}{{page.image2x}} 2x">
+					<source {% if page.imageMobile %} media="(min-width: 767px)" {% endif %} srcset="{{ site.baseurl }}{{page.image}} 1x, {{ site.baseurl }}{{page.image2x}} 2x">
 					<img  class="comic_image{% if page.copyright %}-copyright{% endif %}{% if page.imageMobile %}-wide{% endif %}" src="{{ site.baseurl }}{% if page.imageMobile %}{{page.imageMobile}}{% else if %}{{page.image}}{% endif %}" alt="{{page.title}}">
 				</picture>
 			{% if page.next.url %}
