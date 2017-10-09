@@ -33,12 +33,12 @@
 
 	&_content {
 		max-width: 100%;
-		min-width: 300px;
+		min-width: 767px;
 		&-wide {
 			max-width: 100%;
-			min-width: 300px;
-			@media screen and (min-width: 350px) {
-				min-width: 300px;
+			min-width: 2360px;
+			@media screen and (min-width: 767px) {
+				min-width: 750px;
 			}
 		}
 	}
@@ -54,7 +54,7 @@
 				width: 100%;
 				height: auto;
 				margin-bottom: -5.1%;
-				@media screen and (min-width: 300px) {
+				@media screen and (min-width: 767px) {
 					margin-bottom: -11.333333333333333%;
 				}
 			}
